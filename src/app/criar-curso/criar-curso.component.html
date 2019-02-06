@@ -1,0 +1,10 @@
+<br>
+<div class="container">
+  <label>Curso: </label>
+  <input type="text" #cursoInput>
+  <br>
+  <button class="btn btn-primary"
+    (click)="onAddCurso(cursoInput.value)">Add Curso</button>
+</div>
+
+<app-curso-criado></app-curso-criado>
